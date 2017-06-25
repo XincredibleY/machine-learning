@@ -20,6 +20,9 @@ import random
 
 # In[2]:
 
+# return nohiden files dir
+def listdir_nohidden(path):
+    return glob.glob(os.path.join(path, '*'))
 # read filesname and labels list
 def read_list_from_disk():
     filenameslist = []
@@ -53,6 +56,8 @@ def image_operate(input_queue):
     # rgb to grayscale
     image = tf.image.rgb_to_grayscale(images=image)
     
+    image = tf.reshape(image,tf.stack([IMG_WIDTHS,IMG_HEIGHTS,1]))
+    
     return image,label
     
 
@@ -80,6 +85,7 @@ trainfilelist,testfilelist = tf.dynamic_partition(data=filenameslist_tensor,
 trainlabellist,testlabellist = tf.dynamic_partition(data=filelabelslist_tensor,
                                                     partitions=partitions,
                                                     num_partitions=2)
+
 # train and test queue
 train_input_queue = tf.train.slice_input_producer(tensor_list=[trainfilelist,trainlabellist],
                                                   shuffle=False,num_epochs=2)
@@ -90,9 +96,7 @@ test_input_queue = tf.train.slice_input_producer(tensor_list=[testfilelist,testl
 trainfile , trainlabel = image_operate(train_input_queue)
 testfile, testlabel = image_operate(test_input_queue)
 
-#set shape，NHWC format
-trainfile.set_shape([1,IMG_HEIGHTS,IMG_WIDTHS,1])
-testfile.set_shape([1,IMG_HEIGHTS,IMG_WIDTHS,1])
+
 # batch size 
 BATCH_SIZE = 2
 
