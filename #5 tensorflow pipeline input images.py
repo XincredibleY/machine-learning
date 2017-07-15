@@ -18,6 +18,7 @@ import matplotlib.pyplot as plt
 import random
 
 
+
 # In[2]:
 
 # return nohiden files dir
@@ -41,6 +42,8 @@ def read_list_from_disk():
 # image widths and heights
 IMG_WIDTHS = 100
 IMG_HEIGHTS = 100
+
+
 
 # image_operation
 def image_operate(input_queue):
