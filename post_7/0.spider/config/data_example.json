@@ -1,0 +1,269 @@
+/* 1 */
+{
+    "_id" : ObjectId("598bd721a54d75682cbc38dd"), # id
+    "feature_tag" : "0", # 暂不知
+    "room_longitude" : "120.18168900", # 经度
+    "act_web_url" : "", # 暂不知
+    "resource_id" : "aae626a8-7f05-443f-d36a-f3944d3c729e", # 暂不知
+    "guarantee_txt" : "",  # 保障宣言
+    // "alert_text_can" : "客服将免费帮您预约看房时间，每人每天最多可预约5个房间，确定提交预约吗？", 
+    "act_text" : "", # 暂不知
+    // "baitiao_txt" : "白条月付>>>", 
+    // "baitiao_txt_col" : "F2684E",
+    "room_description" : "毗邻最美西湖，四季青，浙一，", #房间描述
+    "total_agent" : 1, # 
+    // "share_url" : "http://m.hizhu.com/hangzhou/roomDetail.html?infofrom=app&room_id=71abb17f-6168-6bec-54e6-7a8f0c93f278&city_code=001011001&city_name=hangzhou", #
+    "floor_total" : "6", # 共几楼
+    // "online_contract_url" : "",
+    // "earnest_flag" : 0,
+    "is_auth" : "0",
+    "owner_gender" : "1", # 房东性别：1：男，2：女,0：未知
+    "room_name" : "整套", # 整套还是次卧等，房间名称
+    // "img_act_web_url" : "",
+    "scope_name" : "平海路", # 区域名
+    // "earnest_url" : "",
+    // "cash_back_desc" : "",
+    // "room_no" : "HZ201707290326837", # 房源编号
+    // "virtual_number_id" : "5df0905d-6da3-1a9c-e3cd-8c0d3425312f", # 虚拟号id
+    // "payee" : "",
+    "estate_house_quantity" : "2", # 
+    "is_sublet" : 0,
+    "is_collect" : false,
+    "sole_room" : "0",
+    // "show_telbar" : "1",
+    "room_money" : "2500",# 价格
+    "room_facility_ids" : [ # 房间设施，参考config
+        "1113", 
+        "1112", 
+        "1108", 
+        "1102", 
+        "1107", 
+        "1104", 
+        "1116", 
+        "1117"
+    ],
+    // "img_act_img_url" : "",
+    "image_ids" : [ 
+        "9F552139-FC08-7A51-3585-D636D42B376F", 
+        "8E8CC144-3991-E868-E881-628E307BB508", 
+        "22CBFA67-EC9D-2746-73A6-0F7D29C7766B", 
+        "999DD914-134D-7343-699B-7BBE8520C0D7", 
+        "386E73A4-3A4E-6DB2-EB7F-44C7DB366DD7", 
+        "A1E72A9D-5325-12E9-AE65-E1AACCCBDEC1", 
+        "ED9196A5-4156-E533-7A0A-2026593E2E24"
+    ],
+    "room_id" : "71abb17f-6168-6bec-54e6-7a8f0c93f278", # 房间ID
+    "city_code" : "001011001", # 城市ID 
+    "owner_id" : "5df0905d-6da3-1a9c-e3cd-8c0d3425312f",# 房东ID
+    "owner_name" : "慧雅公寓",# 房东姓名
+    "tags" : [], #标签
+    // "reserve_id" : "",
+    "image_urls" : [  # 房间照片
+        "https://imghzcdn.loulifang.com.cn/hangzhou/fang/50/57/50C6F41F34E67BBFED2363CAF1E5EB204057.jpeg", 
+        "https://imghzcdn.loulifang.com.cn/hangzhou/fang/AA/37/AABF0D1C185E6ACC7A30E4ABA553C77B9237.jpeg", 
+        "https://imghzcdn.loulifang.com.cn/hangzhou/fang/70/53/707F24B9626B6056E4D0A21C571EC8EB9053.jpeg", 
+        "https://imghzcdn.loulifang.com.cn/hangzhou/fang/3D/38/3D7F542B104C5023A6730B6A1E0E8CDC7738.jpeg", 
+        "https://imghzcdn.loulifang.com.cn/hangzhou/fang/00/40/009B0C52EA73E1068D8762EBF8C849869340.jpeg", 
+        "https://imghzcdn.loulifang.com.cn/hangzhou/fang/DA/21/DA076667F375A24CCD5E6ECD3DEFEFF58621.jpeg", 
+        "https://imghzcdn.loulifang.com.cn/hangzhou/fang/22/66/223968EC10E756D275533C9858C8C2908466.jpeg"
+    ],
+    "house_room_no" : "", # 房间号
+    "address" : "上城区佑圣观路145号", # 详细地址
+    "estate_name" : "慧雅公寓", # 小区名称
+    "public_facility_ids" : [  # 公用设施，参考config
+        "0312"
+    ],
+    // "districtId" : "001011001002", # 街道ID
+    "room_latitude" : "30.25021700",# 纬度
+    "check_in_state" : "2", # 2表示待出租，其他都是已经出租
+    "is_regroup" : "0", # 聚合
+    "room_facility" : [ # 房间设置
+        {
+            "img_url_bright" : "https://imghz.loulifang.com.cn/appico/3F4CC746317C8CCA513BF065842A6EEC3240.png",
+            "type_no" : "1113",
+            "name" : "独立厨房",
+            "img_url_gray" : "https://imghz.loulifang.com.cn/appico/9FADD8A41474F5173DDE5953640D9D766368.png"
+        }, 
+        {
+            "img_url_bright" : "https://imghz.loulifang.com.cn/appico/9A6A30D714C8EE6C4E450327DAFE91707333.png",
+            "type_no" : "1112",
+            "name" : "独立卫生间",
+            "img_url_gray" : "https://imghz.loulifang.com.cn/appico/5036D378B194582D0FEF5E118684BDB98452.png"
+        }, 
+        {
+            "img_url_bright" : "https://imghz.loulifang.com.cn/appico/4655322D6AA34FF03E3E38AA9858331C1882.png",
+            "type_no" : "1108",
+            "name" : "冰箱",
+            "img_url_gray" : "https://imghz.loulifang.com.cn/appico/3B2FFE48C0E510A4E3AB35C96D2189CF4312.png"
+        }, 
+        {
+            "img_url_bright" : "https://imghz.loulifang.com.cn/appico/C9D7BE455AAE6869C5CF0CDAAF3802224690.png",
+            "type_no" : "1102",
+            "name" : "空调",
+            "img_url_gray" : "https://imghz.loulifang.com.cn/appico/9F5B99078741AA471C95BAC9585244705900.png"
+        }, 
+        {
+            "img_url_bright" : "https://imghz.loulifang.com.cn/appico/3A539CC861B679CD5FE8BD6325C21F3E5937.png",
+            "type_no" : "1107",
+            "name" : "衣柜",
+            "img_url_gray" : "https://imghz.loulifang.com.cn/appico/4063EBB6A5091A6EDE7BA1C20FC977102202.png"
+        }, 
+        {
+            "img_url_bright" : "https://imghz.loulifang.com.cn/appico/FD97229CC86D8946A6052BE058C127427097.png",
+            "type_no" : "1104",
+            "name" : "双人床",
+            "img_url_gray" : "https://imghz.loulifang.com.cn/appico/FBBC70AFB9500FAB58CDAEE6DE99B6E61166.png"
+        }, 
+        {
+            "img_url_bright" : "https://imghz.loulifang.com.cn/appico/483F96020B07BA09A4DAF10F977FA1113921.png",
+            "type_no" : "1116",
+            "name" : "热水器",
+            "img_url_gray" : "https://imghz.loulifang.com.cn/appico/154D6FEB70AF66E73F18C13DA050A22C6847.png"
+        }, 
+        {
+            "img_url_bright" : "https://imghz.loulifang.com.cn/appico/42CA5F6EF943DADF2016A332BA84E8613418.png",
+            "type_no" : "1117",
+            "name" : "宽带",
+            "img_url_gray" : "https://imghz.loulifang.com.cn/appico/F61807270BE5915FAD3F261A6D8EC00E2600.png"
+        }
+    ],
+    // "alert_text_cannot" : "您已预约过此房源",
+    "agents" : [ 
+    	# 以下是非中介
+        {
+            "phone_number" : "",
+            "agent_name" : "慧雅公寓",
+            "show_im" : 1,
+            "is_owner" : "4",
+            "im_acc" : "5df0905d6da31a9ce3cd8c0d3425312f",
+            "virtual_number_id" : "5df0905d-6da3-1a9c-e3cd-8c0d3425312f",
+            "commission_price" : 0,
+            "phone_numbers" : "",
+            "show_appointbar" : "1",
+            "agent_img_url" : "https://imghzcdn.loulifang.com.cn/head/00000000000000000000000000000014.jpg",
+            "agent_organization" : "房东直租",
+            "agent_money" : 0,
+            "use_virtual_number" : 1,
+            "house_view_num" : 0,
+            "agent_id" : "5df0905d-6da3-1a9c-e3cd-8c0d3425312f",
+            "room_money" : "2500",
+            "is_certified" : 0
+        },
+        # 以下是有中介的数据
+        {
+                "agent_img_url": "https://img.loulifang.com.cn/head/00000000000000000000000000000015.jpg",
+                "agent_organization": "杭州聚隆房地产经纪有限公司",
+                "agent_name": "王元元",
+                "agent_id": "8058701e-fea0-807b-dbc7-ad7d02007c2b",
+                "is_owner": "5",
+                "agent_money": 850, # 中介费用
+                "room_money": "1700",
+                "commission_price": 50,
+                "use_virtual_number": 1,
+                "virtual_number_id": "8058701e-fea0-807b-dbc7-ad7d02007c2b",
+                "phone_number": "",
+                "show_appointbar": 0,
+                "show_im": 1,
+                "im_acc": "8058701efea0807bdbc7ad7d02007c2b",
+                "house_view_num": null,
+                "is_certified": 1,
+                "phone_numbers": ""
+            }
+    ],
+    // "payee_phoneno" : "",
+    // "payee_cardno" : "",
+    // "pay_type" : -1,
+    "area" : "25", # 房屋总面积（整户等于room_area）
+    // "record_status" : "1",
+    "owner_like" : [], # 房东喜欢的租客
+    "owne_number_txt" : "4008151000,,182073#",#房东电话
+    "region_name" : "上城", # 城市区域
+    "rent_type" : "2", # 房屋类型，2:整租，1:合租
+    "only_girl" : "0", # 是否限女生，1:是，0:否
+    "public_facility" : [ # 公用设施
+    	{
+            "img_url_bright" : "https://imghz.loulifang.com.cn/appico/6FFD9C8F37284F94B03312F13523AC344968.png",
+            "type_no" : "0310",
+            "name" : "卫生间",
+            "img_url_gray" : "https://imghz.loulifang.com.cn/appico/1C78A8657BEEA78F98ECD308AAD4B5387084.png"
+        },
+        {
+            "img_url_bright" : "https://imghz.loulifang.com.cn/appico/AD40EEDBBE24872132360B2FB26E160E5575.png",
+            "type_no" : "0312",
+            "name" : "暂无设施",
+            "img_url_gray" : "https://imghz.loulifang.com.cn/appico/5646925BC9F7B643C2066E86EF7833524126.png"
+        }
+    ],
+    "owner_avatar" : "https://imghzcdn.loulifang.com.cn/head/00000000000000000000000000000014.jpg", # 房东头像
+    "use_virtual_number" : 1, # 是否优先使用虚拟号拨打电话
+    "brand_type" : "1604", # 公寓类型，参见config，1604:未来域
+    "has_appointed" : 0,# 是否预约
+    "owner_evaluate_cnt" : 0, # 已有用户评价
+    // "third_no" : "",
+    // "region_id" : "3",
+    // "videos" : [],
+    "subway_objs" : [ # 地铁
+        {
+            "colorvalue" : "cc0000",
+            "subway_distance" : "475", # 距离
+            "subwayline_name" : "1号线", # 线路名称
+            "estate_id" : "0e3b5500-c3cd-11e5-bb34-02004c4f4f50",
+            "city_code" : "001011001",
+            "subway_name" : "滨和路", # 站点名
+            "subway_id" : "28",
+            "id" : "d2085c6d-31bf-4d74-a746-d5fad6213cb7",
+            "subwayline_id" : "1"
+        }, 
+        {
+            "colorvalue" : "cc0000",
+            "subway_distance" : "926",
+            "subwayline_name" : "1号线",
+            "estate_id" : "0e3b5500-c3cd-11e5-bb34-02004c4f4f50",
+            "city_code" : "001011001",
+            "subway_name" : "江陵路",
+            "subway_id" : "27",
+            "id" : "0eda73f7-1469-4f10-b5bf-3d81957b05c7",
+            "subwayline_id" : "1"
+        }, 
+        {
+            "colorvalue" : "cc0000",
+            "subway_distance" : "2262",
+            "subwayline_name" : "1号线",
+            "estate_id" : "0e3b5500-c3cd-11e5-bb34-02004c4f4f50",
+            "city_code" : "001011001",
+            "subway_name" : "西兴",
+            "subway_id" : "29",
+            "id" : "aab80810-879d-433c-9f92-fedc3db8c7b7",
+            "subwayline_id" : "1"
+        }
+    ],
+    // "telephone" : "", # 电话
+    "decoration" : "0003", # 装修类型，参见config，0101:精装修
+    // "districtName" : "上城",
+    // "guarantee_url" : "",
+    "floor" : "3", # 楼层
+    "room_direction" : "1010", # 房屋朝向，参见config，1010:北
+    "hall_num" : "0", # 厅数
+    "room_area" : "25", #面积 
+    "wei_num" : "1", #卫生间数量
+    // "baitiao_url" : "https://m.loulifang.com.cn/app/fqfk.php?type=1&mobile=",
+    // "status" : "2", # 状态
+    "update_time" : "1502188076", # 更新时间
+    // "show_appointbar" : "1",
+    // "is_call" : 0,
+    "roomies" : [], # 隔壁房间
+    // "reserve_is_view" : 0,
+    // "earnest_txt" : "",
+    // "unit_no" : "",
+    // "scope_id" : "53",
+    "business_type" : "1502", # 小区住宅，品牌公寓，酒店，参见config，1502:集中公寓
+    // "cash_back_money" : 0,
+    "is_owner" : "4", # 是否是中介，5：是，其他都不是
+    // "has_cs" : "1", # 未知
+    // "owne_number" : "fNTjK8mTn8j/hl2GX/cjpFaUIK0AXTuZw1rkHXbnuwNSP81jec0YkAjBDavlUv13Nj0KDwh9WA1SvA7bRTxa7w0eud/14mMy6GTOZYzgLIseZt9MkyzUzoidxniroX5hJ5QPrfMuU2NFIijB+pLt/PqlMuhAJH+3wTk/J8GYcTg=",
+    // "estate_id" : "e07cfee8-d1a3-016d-2efc-a79d809957fc",
+    "room_num" : "1", # 几居室
+    "pay_method" : "0101", # 付款方式，参见config，0101:付三押一
+    "room_type" : "0205", # 房屋类型，参见config，0205:整租套间
+    "insert_time" : 1502336801 # 插入时间
+}

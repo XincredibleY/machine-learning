@@ -1,0 +1,1119 @@
+{
+    "status": "200",
+    "message": "æˆåŠŸèŽ·å–æ•°æ®",
+    "data": [
+        {
+            "type_no": "0001",
+            "create_time": "1435734513",
+            "name": "毛坯",
+            "info_type": "0",
+            "index_no": "1"
+        },
+        {
+            "type_no": "0002",
+            "create_time": "1435734530",
+            "name": "普通装修",
+            "info_type": "0",
+            "index_no": "2"
+        },
+        {
+            "type_no": "0003",
+            "create_time": "1435734549",
+            "name": "精装修",
+            "info_type": "0",
+            "index_no": "3"
+        },
+        {
+            "type_no": "0004",
+            "create_time": "1435734561",
+            "name": "豪华装修",
+            "info_type": "0",
+            "index_no": "4"
+        },
+        {
+            "type_no": "0101",
+            "create_time": "1435823748",
+            "name": "付三押一",
+            "info_type": "1",
+            "index_no": "1"
+        },
+        {
+            "type_no": "0102",
+            "create_time": "1435823772",
+            "name": "付二押一",
+            "info_type": "1",
+            "index_no": "2"
+        },
+        {
+            "type_no": "0103",
+            "create_time": "1435823788",
+            "name": "付一押一",
+            "info_type": "1",
+            "index_no": "3"
+        },
+        {
+            "type_no": "0104",
+            "create_time": "1436108098",
+            "name": "付三押二",
+            "info_type": "1",
+            "index_no": "4"
+        },
+        {
+            "type_no": "0105",
+            "create_time": "1436418436",
+            "name": "付二押二",
+            "info_type": "1",
+            "index_no": "5"
+        },
+        {
+            "type_no": "0106",
+            "create_time": "1436418497",
+            "name": "付一押二",
+            "info_type": "1",
+            "index_no": "6"
+        },
+        {
+            "type_no": "0107",
+            "create_time": "1436418549",
+            "name": "半年付",
+            "info_type": "1",
+            "index_no": "8"
+        },
+        {
+            "type_no": "0108",
+            "create_time": "1436418591",
+            "name": "整年付",
+            "info_type": "1",
+            "index_no": "9"
+        },
+        {
+            "type_no": "0109",
+            "create_time": "1437444295",
+            "name": "付一押零",
+            "info_type": "1",
+            "index_no": "7"
+        },
+        {
+            "type_no": "0201",
+            "create_time": "1435735333",
+            "name": "合租原房",
+            "info_type": "2",
+            "index_no": "1"
+        },
+        {
+            "type_no": "0202",
+            "create_time": "1435735348",
+            "name": "合租N+1",
+            "info_type": "2",
+            "index_no": "2"
+        },
+        {
+            "type_no": "0203",
+            "create_time": "1435735372",
+            "name": "合租隔断房",
+            "info_type": "2",
+            "index_no": "3"
+        },
+        {
+            "type_no": "0204",
+            "create_time": "1437530145",
+            "name": "整租单间",
+            "info_type": "2",
+            "index_no": "4"
+        },
+        {
+            "type_no": "0205",
+            "create_time": "1437530175",
+            "name": "整租套间",
+            "info_type": "2",
+            "index_no": "5"
+        },
+        {
+            "type_no": "0301",
+            "create_time": "1435734711",
+            "name": "冰箱",
+            "info_type": "3",
+            "index_no": "7"
+        },
+        {
+            "type_no": "0302",
+            "create_time": "1435734725",
+            "name": "洗衣机",
+            "info_type": "3",
+            "index_no": "5"
+        },
+        {
+            "type_no": "0303",
+            "create_time": "1435734738",
+            "name": "宽带",
+            "info_type": "3",
+            "index_no": "4"
+        },
+        {
+            "type_no": "0304",
+            "create_time": "1435734747",
+            "name": "沙发",
+            "info_type": "3",
+            "index_no": "9"
+        },
+        {
+            "type_no": "0305",
+            "create_time": "1435734788",
+            "name": "暖气",
+            "info_type": "3",
+            "index_no": "12"
+        },
+        {
+            "type_no": "0306",
+            "create_time": "1435734799",
+            "name": "热水器",
+            "info_type": "3",
+            "index_no": "6"
+        },
+        {
+            "type_no": "0307",
+            "create_time": "1435734818",
+            "name": "微波炉",
+            "info_type": "3",
+            "index_no": "10"
+        },
+        {
+            "type_no": "0308",
+            "create_time": "1435734830",
+            "name": "烤箱",
+            "info_type": "3",
+            "index_no": "11"
+        },
+        {
+            "type_no": "0309",
+            "create_time": "1435734842",
+            "name": "厨房",
+            "info_type": "3",
+            "index_no": "2"
+        },
+        {
+            "type_no": "0310",
+            "create_time": "1435734864",
+            "name": "卫生间",
+            "info_type": "3",
+            "index_no": "1"
+        },
+        {
+            "type_no": "0311",
+            "create_time": "1436424709",
+            "name": "电视机",
+            "info_type": "3",
+            "index_no": "8"
+        },
+        {
+            "type_no": "0312",
+            "create_time": "1436863788",
+            "name": "暂无设施",
+            "info_type": "3",
+            "index_no": "13"
+        },
+        {
+            "type_no": "0313",
+            "create_time": "1453194151",
+            "name": "空调",
+            "info_type": "3",
+            "index_no": "3"
+        },
+        {
+            "type_no": "0401",
+            "create_time": "1435734604",
+            "name": "公寓",
+            "info_type": "4",
+            "index_no": "1"
+        },
+        {
+            "type_no": "0402",
+            "create_time": "1435734621",
+            "name": "普通住宅",
+            "info_type": "4",
+            "index_no": "2"
+        },
+        {
+            "type_no": "0403",
+            "create_time": "1435734634",
+            "name": "民宅/自建房",
+            "info_type": "4",
+            "index_no": "3"
+        },
+        {
+            "type_no": "0404",
+            "create_time": "1435734649",
+            "name": "别墅",
+            "info_type": "4",
+            "index_no": "4"
+        },
+        {
+            "type_no": "0405",
+            "create_time": "1435734663",
+            "name": "酒店公寓",
+            "info_type": "4",
+            "index_no": "5"
+        },
+        {
+            "type_no": "0501",
+            "create_time": "1435735711",
+            "name": "作息规律",
+            "info_type": "5",
+            "index_no": "1"
+        },
+        {
+            "type_no": "0502",
+            "create_time": "1435735723",
+            "name": "爱干净",
+            "info_type": "5",
+            "index_no": "2"
+        },
+        {
+            "type_no": "0503",
+            "create_time": "1435735736",
+            "name": "不吸烟",
+            "info_type": "5",
+            "index_no": "3"
+        },
+        {
+            "type_no": "0504",
+            "create_time": "1435735749",
+            "name": "不喝酒",
+            "info_type": "5",
+            "index_no": "4"
+        },
+        {
+            "type_no": "0505",
+            "create_time": "1435735793",
+            "name": "单身",
+            "info_type": "5",
+            "index_no": "5"
+        },
+        {
+            "type_no": "0506",
+            "create_time": "1435735804",
+            "name": "已婚",
+            "info_type": "5",
+            "index_no": "6"
+        },
+        {
+            "type_no": "0507",
+            "create_time": "1435735821",
+            "name": "单人住",
+            "info_type": "5",
+            "index_no": "7"
+        },
+        {
+            "type_no": "0508",
+            "create_time": "1435735833",
+            "name": "双人住",
+            "info_type": "5",
+            "index_no": "8"
+        },
+        {
+            "type_no": "0509",
+            "create_time": "1438744527",
+            "name": "女生",
+            "info_type": "5",
+            "index_no": "9"
+        },
+        {
+            "type_no": "0510",
+            "create_time": "1438744554",
+            "name": "男生",
+            "info_type": "5",
+            "index_no": "10"
+        },
+        {
+            "type_no": "0601",
+            "create_time": "1435998001",
+            "name": "1500以下",
+            "info_type": "6",
+            "index_no": "1"
+        },
+        {
+            "type_no": "0602",
+            "create_time": "1435998021",
+            "name": "1500-2500",
+            "info_type": "6",
+            "index_no": "2"
+        },
+        {
+            "type_no": "0603",
+            "create_time": "1435998037",
+            "name": "2500-3500",
+            "info_type": "6",
+            "index_no": "3"
+        },
+        {
+            "type_no": "0604",
+            "create_time": "1471498494",
+            "name": "3500-4500",
+            "info_type": "6",
+            "index_no": "4"
+        },
+        {
+            "type_no": "0605",
+            "create_time": "1471498524",
+            "name": "4500以上",
+            "info_type": "6",
+            "index_no": "5"
+        },
+        {
+            "type_no": "0701",
+            "create_time": "1435998200",
+            "name": "12以下",
+            "info_type": "7",
+            "index_no": "1"
+        },
+        {
+            "type_no": "0702",
+            "create_time": "1435998234",
+            "name": "12-20",
+            "info_type": "7",
+            "index_no": "2"
+        },
+        {
+            "type_no": "0703",
+            "create_time": "1435998266",
+            "name": "20以上",
+            "info_type": "7",
+            "index_no": "3"
+        },
+        {
+            "type_no": "0801",
+            "create_time": "1435998422",
+            "name": "男生",
+            "info_type": "8",
+            "index_no": "1"
+        },
+        {
+            "type_no": "0802",
+            "create_time": "1435998442",
+            "name": "女生",
+            "info_type": "8",
+            "index_no": "2"
+        },
+        {
+            "type_no": "0803",
+            "create_time": "1435998467",
+            "name": "保密",
+            "info_type": "8",
+            "index_no": "3"
+        },
+        {
+            "type_no": "0901",
+            "create_time": "1435998516",
+            "name": "00后",
+            "info_type": "9",
+            "index_no": "1"
+        },
+        {
+            "type_no": "0902",
+            "create_time": "1435998530",
+            "name": "90后",
+            "info_type": "9",
+            "index_no": "2"
+        },
+        {
+            "type_no": "0903",
+            "create_time": "1435998544",
+            "name": "80后",
+            "info_type": "9",
+            "index_no": "3"
+        },
+        {
+            "type_no": "0904",
+            "create_time": "1435998565",
+            "name": "70后",
+            "info_type": "9",
+            "index_no": "4"
+        },
+        {
+            "type_no": "0905",
+            "create_time": "1435998589",
+            "name": "60后",
+            "info_type": "9",
+            "index_no": "5"
+        },
+        {
+            "type_no": "0906",
+            "create_time": "1435998605",
+            "name": "保密",
+            "info_type": "9",
+            "index_no": "6"
+        },
+        {
+            "type_no": "1001",
+            "create_time": "1436254530",
+            "name": "南北",
+            "info_type": "10",
+            "index_no": "10"
+        },
+        {
+            "type_no": "1002",
+            "create_time": "1436254586",
+            "name": "东西",
+            "info_type": "10",
+            "index_no": "9"
+        },
+        {
+            "type_no": "1003",
+            "create_time": "1436254602",
+            "name": "东北",
+            "info_type": "10",
+            "index_no": "6"
+        },
+        {
+            "type_no": "1004",
+            "create_time": "1436254614",
+            "name": "东南",
+            "info_type": "10",
+            "index_no": "5"
+        },
+        {
+            "type_no": "1005",
+            "create_time": "1436254628",
+            "name": "西北",
+            "info_type": "10",
+            "index_no": "8"
+        },
+        {
+            "type_no": "1006",
+            "create_time": "1436254638",
+            "name": "西南",
+            "info_type": "10",
+            "index_no": "7"
+        },
+        {
+            "type_no": "1007",
+            "create_time": "1436423570",
+            "name": "东",
+            "info_type": "10",
+            "index_no": "1"
+        },
+        {
+            "type_no": "1008",
+            "create_time": "1436423973",
+            "name": "西",
+            "info_type": "10",
+            "index_no": "3"
+        },
+        {
+            "type_no": "1009",
+            "create_time": "1436424107",
+            "name": "南",
+            "info_type": "10",
+            "index_no": "2"
+        },
+        {
+            "type_no": "1010",
+            "create_time": "1436424124",
+            "name": "北",
+            "info_type": "10",
+            "index_no": "4"
+        },
+        {
+            "type_no": "1101",
+            "create_time": "1436254863",
+            "name": "电视机",
+            "info_type": "11",
+            "index_no": "13"
+        },
+        {
+            "type_no": "1102",
+            "create_time": "1436254881",
+            "name": "空调",
+            "info_type": "11",
+            "index_no": "6"
+        },
+        {
+            "type_no": "1103",
+            "create_time": "1436254895",
+            "name": "单人床",
+            "info_type": "11",
+            "index_no": "12"
+        },
+        {
+            "type_no": "1104",
+            "create_time": "1436254907",
+            "name": "双人床",
+            "info_type": "11",
+            "index_no": "14"
+        },
+        {
+            "type_no": "1105",
+            "create_time": "1436254925",
+            "name": "梳妆台",
+            "info_type": "11",
+            "index_no": "8"
+        },
+        {
+            "type_no": "1106",
+            "create_time": "1436254958",
+            "name": "写字台",
+            "info_type": "11",
+            "index_no": "11"
+        },
+        {
+            "type_no": "1107",
+            "create_time": "1436254974",
+            "name": "衣柜",
+            "info_type": "11",
+            "index_no": "15"
+        },
+        {
+            "type_no": "1108",
+            "create_time": "1436254987",
+            "name": "冰箱",
+            "info_type": "11",
+            "index_no": "5"
+        },
+        {
+            "type_no": "1109",
+            "create_time": "1436255002",
+            "name": "洗衣机",
+            "info_type": "11",
+            "index_no": "9"
+        },
+        {
+            "type_no": "1110",
+            "create_time": "1436255016",
+            "name": "沙发",
+            "info_type": "11",
+            "index_no": "10"
+        },
+        {
+            "type_no": "1111",
+            "create_time": "1436255029",
+            "name": "阳台",
+            "info_type": "11",
+            "index_no": "2"
+        },
+        {
+            "type_no": "1112",
+            "create_time": "1436255041",
+            "name": "卫生间",
+            "info_type": "11",
+            "index_no": "3"
+        },
+        {
+            "type_no": "1113",
+            "create_time": "1436329061",
+            "name": "厨房",
+            "info_type": "11",
+            "index_no": "1"
+        },
+        {
+            "type_no": "1115",
+            "create_time": "1437548749",
+            "name": "飘窗",
+            "info_type": "11",
+            "index_no": "4"
+        },
+        {
+            "type_no": "1116",
+            "create_time": "1464326967",
+            "name": "热水器",
+            "info_type": "11",
+            "index_no": "16"
+        },
+        {
+            "type_no": "1117",
+            "create_time": "1464330050",
+            "name": "宽带",
+            "info_type": "11",
+            "index_no": "17"
+        },
+        {
+            "type_no": "1301",
+            "create_time": "1436255062",
+            "name": "单人",
+            "info_type": "13",
+            "index_no": "1"
+        },
+        {
+            "type_no": "1302",
+            "create_time": "1436255080",
+            "name": "双人",
+            "info_type": "13",
+            "index_no": "2"
+        },
+        {
+            "type_no": "1303",
+            "create_time": "1436255090",
+            "name": "多人",
+            "info_type": "13",
+            "index_no": "3"
+        },
+        {
+            "type_no": "1401",
+            "create_time": "1436255107",
+            "name": "专业技术人员",
+            "info_type": "14",
+            "index_no": "1"
+        },
+        {
+            "type_no": "1501",
+            "create_time": "1436841667",
+            "name": "小区住宅",
+            "info_type": "15",
+            "index_no": "1"
+        },
+        {
+            "type_no": "1502",
+            "create_time": "1436754257",
+            "name": "集中公寓",
+            "info_type": "15",
+            "index_no": "2"
+        },
+        {
+            "type_no": "1503",
+            "create_time": "1436754278",
+            "name": "酒店长租",
+            "info_type": "15",
+            "index_no": "3"
+        },
+        {
+            "type_no": "1602",
+            "create_time": "1437556292",
+            "name": "青客",
+            "info_type": "16",
+            "index_no": "2"
+        },
+        {
+            "type_no": "1603",
+            "create_time": "1437556327",
+            "name": "自如",
+            "info_type": "16",
+            "index_no": "1"
+        },
+        {
+            "type_no": "1604",
+            "create_time": "1437556410",
+            "name": "未来域",
+            "info_type": "16",
+            "index_no": "7"
+        },
+        {
+            "type_no": "1606",
+            "create_time": "1437556800",
+            "name": "逗号公寓",
+            "info_type": "16",
+            "index_no": "6"
+        },
+        {
+            "type_no": "1610",
+            "create_time": "1437556902",
+            "name": "寓见",
+            "info_type": "16",
+            "index_no": "3"
+        },
+        {
+            "type_no": "1612",
+            "create_time": "1440147383",
+            "name": "c9公寓",
+            "info_type": "16",
+            "index_no": "14"
+        },
+        {
+            "type_no": "1614",
+            "create_time": "1440817122",
+            "name": "友社公寓",
+            "info_type": "16",
+            "index_no": "12"
+        },
+        {
+            "type_no": "1615",
+            "create_time": "1466401517",
+            "name": "魔方公寓",
+            "info_type": "16",
+            "index_no": "5"
+        },
+        {
+            "type_no": "1616",
+            "create_time": "1466401673",
+            "name": "湾流公寓",
+            "info_type": "16",
+            "index_no": "10"
+        },
+        {
+            "type_no": "1617",
+            "create_time": "1466401721",
+            "name": "城家公寓",
+            "info_type": "16",
+            "index_no": "11"
+        },
+        {
+            "type_no": "1618",
+            "create_time": "1470897390",
+            "name": "爱上租",
+            "info_type": "16",
+            "index_no": "24"
+        },
+        {
+            "type_no": "1619",
+            "create_time": "1471418382",
+            "name": "壹公寓",
+            "info_type": "16",
+            "index_no": "21"
+        },
+        {
+            "type_no": "1620",
+            "create_time": "1472546534",
+            "name": "蛋壳公寓",
+            "info_type": "16",
+            "index_no": "9"
+        },
+        {
+            "type_no": "1621",
+            "create_time": "1475033408",
+            "name": "水滴公寓",
+            "info_type": "16",
+            "index_no": "22"
+        },
+        {
+            "type_no": "1622",
+            "create_time": "1477804370",
+            "name": "微舍",
+            "info_type": "16",
+            "index_no": "15"
+        },
+        {
+            "type_no": "1624",
+            "create_time": "1482291798",
+            "name": "V领地",
+            "info_type": "16",
+            "index_no": "4"
+        },
+        {
+            "type_no": "1625",
+            "create_time": "1482375945",
+            "name": "蚂蚁公舍",
+            "info_type": "16",
+            "index_no": "16"
+        },
+        {
+            "type_no": "1626",
+            "create_time": "1482376196",
+            "name": "索纳特公寓",
+            "info_type": "16",
+            "index_no": "17"
+        },
+        {
+            "type_no": "1628",
+            "create_time": "1482471612",
+            "name": "窝趣轻社区",
+            "info_type": "16",
+            "index_no": "19"
+        },
+        {
+            "type_no": "1629",
+            "create_time": "1483678541",
+            "name": "贝客公寓",
+            "info_type": "16",
+            "index_no": "20"
+        },
+        {
+            "type_no": "1632",
+            "create_time": "1492494221",
+            "name": "乐乎公寓",
+            "info_type": "16",
+            "index_no": "25"
+        },
+        {
+            "type_no": "1633",
+            "create_time": "1492494238",
+            "name": "万科泊寓",
+            "info_type": "16",
+            "index_no": "26"
+        },
+        {
+            "type_no": "1634",
+            "create_time": "1492494259",
+            "name": "旭辉柚米",
+            "info_type": "16",
+            "index_no": "27"
+        },
+        {
+            "type_no": "1636",
+            "create_time": "1493265607",
+            "name": "V+SPACE",
+            "info_type": "16",
+            "index_no": "28"
+        },
+        {
+            "type_no": "1637",
+            "create_time": "1493265659",
+            "name": "唐巢",
+            "info_type": "16",
+            "index_no": "23"
+        },
+        {
+            "type_no": "1639",
+            "create_time": "1493359360",
+            "name": "众寓",
+            "info_type": "16",
+            "index_no": "29"
+        },
+        {
+            "type_no": "1641",
+            "create_time": "1498814903",
+            "name": "寓多多",
+            "info_type": "16",
+            "index_no": "13"
+        },
+        {
+            "type_no": "1642",
+            "create_time": "1501208878",
+            "name": "源涞国际",
+            "info_type": "16",
+            "index_no": "30"
+        },
+        {
+            "type_no": "1643",
+            "create_time": "1502247042",
+            "name": "龙湖冠寓",
+            "info_type": "16",
+            "index_no": "32"
+        },
+        {
+            "type_no": "1644",
+            "create_time": "1502848723",
+            "name": "同复地产",
+            "info_type": "16",
+            "index_no": "33"
+        },
+        {
+            "type_no": "1701",
+            "create_time": "1440493393",
+            "name": "白羊座",
+            "info_type": "17",
+            "index_no": "1"
+        },
+        {
+            "type_no": "1702",
+            "create_time": "1440493409",
+            "name": "巨蟹座",
+            "info_type": "17",
+            "index_no": "2"
+        },
+        {
+            "type_no": "1703",
+            "create_time": "1440493424",
+            "name": "天秤座",
+            "info_type": "17",
+            "index_no": "3"
+        },
+        {
+            "type_no": "1704",
+            "create_time": "1440493442",
+            "name": "摩羯座",
+            "info_type": "17",
+            "index_no": "4"
+        },
+        {
+            "type_no": "1705",
+            "create_time": "1440493459",
+            "name": "金牛座",
+            "info_type": "17",
+            "index_no": "5"
+        },
+        {
+            "type_no": "1706",
+            "create_time": "1440493474",
+            "name": "狮子座",
+            "info_type": "17",
+            "index_no": "6"
+        },
+        {
+            "type_no": "1707",
+            "create_time": "1440493490",
+            "name": "天蝎座",
+            "info_type": "17",
+            "index_no": "7"
+        },
+        {
+            "type_no": "1708",
+            "create_time": "1440493508",
+            "name": "水瓶座",
+            "info_type": "17",
+            "index_no": "8"
+        },
+        {
+            "type_no": "1709",
+            "create_time": "1440493522",
+            "name": "双子座",
+            "info_type": "17",
+            "index_no": "9"
+        },
+        {
+            "type_no": "1710",
+            "create_time": "1440493537",
+            "name": "处女座",
+            "info_type": "17",
+            "index_no": "10"
+        },
+        {
+            "type_no": "1711",
+            "create_time": "1440493550",
+            "name": "射手座",
+            "info_type": "17",
+            "index_no": "11"
+        },
+        {
+            "type_no": "1712",
+            "create_time": "1440493565",
+            "name": "双鱼座",
+            "info_type": "17",
+            "index_no": "12"
+        },
+        {
+            "type_no": "1801",
+            "create_time": "1440497298",
+            "name": "互联网",
+            "info_type": "18",
+            "index_no": "1"
+        },
+        {
+            "type_no": "1802",
+            "create_time": "1440497319",
+            "name": "金融",
+            "info_type": "18",
+            "index_no": "2"
+        },
+        {
+            "type_no": "1803",
+            "create_time": "1440497436",
+            "name": "行政HR",
+            "info_type": "18",
+            "index_no": "3"
+        },
+        {
+            "type_no": "1804",
+            "create_time": "1440497452",
+            "name": "娱乐圈",
+            "info_type": "18",
+            "index_no": "4"
+        },
+        {
+            "type_no": "1805",
+            "create_time": "1440497467",
+            "name": "能源化工",
+            "info_type": "18",
+            "index_no": "5"
+        },
+        {
+            "type_no": "1806",
+            "create_time": "1440497481",
+            "name": "电子通信",
+            "info_type": "18",
+            "index_no": "6"
+        },
+        {
+            "type_no": "1807",
+            "create_time": "1440497496",
+            "name": "消费品",
+            "info_type": "18",
+            "index_no": "7"
+        },
+        {
+            "type_no": "1808",
+            "create_time": "1440497513",
+            "name": "广告传媒",
+            "info_type": "18",
+            "index_no": "8"
+        },
+        {
+            "type_no": "1809",
+            "create_time": "1440497527",
+            "name": "交通贸易",
+            "info_type": "18",
+            "index_no": "9"
+        },
+        {
+            "type_no": "1810",
+            "create_time": "1440497541",
+            "name": "公务员",
+            "info_type": "18",
+            "index_no": "10"
+        },
+        {
+            "type_no": "1811",
+            "create_time": "1440497555",
+            "name": "房地产",
+            "info_type": "18",
+            "index_no": "11"
+        },
+        {
+            "type_no": "1812",
+            "create_time": "1440497573",
+            "name": "汽车机械",
+            "info_type": "18",
+            "index_no": "12"
+        },
+        {
+            "type_no": "1813",
+            "create_time": "1440497586",
+            "name": "教育文化",
+            "info_type": "18",
+            "index_no": "13"
+        },
+        {
+            "type_no": "1814",
+            "create_time": "1440497603",
+            "name": "医疗制药",
+            "info_type": "18",
+            "index_no": "14"
+        },
+        {
+            "type_no": "1815",
+            "create_time": "1440497614",
+            "name": "其他",
+            "info_type": "18",
+            "index_no": "15"
+        },
+        {
+            "type_no": "1901",
+            "create_time": "1477907330",
+            "name": "2500以下",
+            "info_type": "19",
+            "index_no": "1"
+        },
+        {
+            "type_no": "1902",
+            "create_time": "1477907346",
+            "name": "2500-4000",
+            "info_type": "19",
+            "index_no": "2"
+        },
+        {
+            "type_no": "1903",
+            "create_time": "1477907362",
+            "name": "4000-5500",
+            "info_type": "19",
+            "index_no": "3"
+        },
+        {
+            "type_no": "1904",
+            "create_time": "1477907380",
+            "name": "5500-7000",
+            "info_type": "19",
+            "index_no": "4"
+        },
+        {
+            "type_no": "1905",
+            "create_time": "1477907577",
+            "name": "7000-10000",
+            "info_type": "19",
+            "index_no": "5"
+        },
+        {
+            "type_no": "1906",
+            "create_time": "1477907593",
+            "name": "10000以上",
+            "info_type": "19",
+            "index_no": "6"
+        }
+    ]
+}
