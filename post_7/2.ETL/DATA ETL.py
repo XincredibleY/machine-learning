@@ -1,49 +1,45 @@
 
-
-```python
 # coding: utf-8
+
+# In[1]:
+
+
+
 # use this file to convert data in mongo to csv file ,maybe it is very big, we will deal with it soon
 # step 1: connect mongodb
 # step 2: select out target records
 # step 3: output csv files
-```
 
 
-```python
+# In[2]:
+
+
 # import tools
 import pandas as pd
 import numpy as np 
 import pymongo
-```
 
 
-```python
+# In[3]:
+
+
 # connect mongo 
 db = pymongo.MongoClient('localhost',27017)
 houseList = db.house.houselist
 houseDetail = db.house.housedetail
-```
 
 
-```python
+# In[4]:
+
+
 # just for a test
 testData = houseDetail.find_one()
 print testData['room_description']
-```
-
-    毗邻最美西湖，四季青，浙一，浙二医院，上城区新装公寓，火热招租中。
-    【公交信息】
-    1.市三医院 距离212米 7路;30路;40路;108路;187路;188路;270路;400路;游2线/y2路
-    2.涌金立交 - 距离282米 13路;66路;71路;113路;801路
-    3.水漾桥 - 距离353米 3路;34路;66路;105路;106路;114路;151路;276路;290路;295路;801路;k155路
-    【周边配套】
-    1.杭州市第三人民医院  距离319米
-    2.浙江大学附属第一医院城站院区 距离572米
-    3.城站距离580米。骑车5分钟。
 
 
+# In[5]:
 
-```python
+
 city_code_dict = {
     'shanghai':'001009001',
     'beijing':'001001',
@@ -51,17 +47,19 @@ city_code_dict = {
     'shenzheng':'001019002',
     'nanjing':'001010001'
 }
-```
 
 
-```python
+# In[6]:
+
+
 # check whether data is null
 def check_data_null(data):
     return 1 if data != "" else 0
-```
 
 
-```python
+# In[7]:
+
+
 # check config exist
 def check_rf_config_exist(type,list_data):
     # 即检查对应的类型是否包含在list_data中
@@ -89,17 +87,19 @@ def check_rf_config_exist(type,list_data):
         return 1
     else:
         return 0    
-```
 
 
-```python
+# In[8]:
+
+
 # 检查“转租”，可短租
 def check_zz_kdz(type,list_data):
     return 1 if type in list_data else 0
-```
 
 
-```python
+# In[9]:
+
+
 # 检查公用设施
 def check_puf_config_exist(type,list_data):
     # 即检查对应的类型是否包含在list_data中
@@ -124,10 +124,11 @@ def check_puf_config_exist(type,list_data):
     else:
         return 0    
     
-```
 
 
-```python
+# In[10]:
+
+
 # 检查房东喜欢的类型
 def check_fdxh_config_exist(type,list_data):
     # 即检查对应的类型是否包含在list_data中
@@ -149,10 +150,11 @@ def check_fdxh_config_exist(type,list_data):
         return 1
     else:
         return 0    
-```
 
 
-```python
+# In[11]:
+
+
 # 检查公寓类型
 def get_brand_type(type):
     # 即检查对应的类型是否包含在list_data中
@@ -192,10 +194,10 @@ def get_brand_type(type):
     # 0表示不再配置文件中
     return data_dict[type][0] if type in data_dict else 0
 
-```
+
+# In[12]:
 
 
-```python
 # 检查装修类型
 def get_decoration_type(type):
     # 即检查对应的类型是否包含在list_data中
@@ -209,10 +211,10 @@ def get_decoration_type(type):
     # 0表示不再配置文件中
     return data_dict[type][0] if type in data_dict else 0
 
-```
+
+# In[13]:
 
 
-```python
 # 检查房屋朝向
 def get_room_direction(type):
     # 即检查对应的类型是否包含在list_data中
@@ -232,10 +234,10 @@ def get_room_direction(type):
     # 0表示不再配置文件中
     return data_dict[type][0] if type in data_dict else 0
 
-```
+
+# In[14]:
 
 
-```python
 # 检查是否小区住宅，品牌公寓，酒店，参见config，1502:集中公寓
 def get_business_type(type):
     # 即检查对应的类型是否包含在list_data中
@@ -248,10 +250,10 @@ def get_business_type(type):
     # 0表示不再配置文件中
     return data_dict[type][0] if type in data_dict else 0
 
-```
+
+# In[15]:
 
 
-```python
 # 付款方式，参见config，0101:付三押一
 def get_pay_method(type):
     # 即检查对应的类型是否包含在list_data中
@@ -270,10 +272,10 @@ def get_pay_method(type):
     # 0表示不再配置文件中
     return data_dict[type][0] if type in data_dict else 0
 
-```
+
+# In[16]:
 
 
-```python
 # 房屋类型，参见config，0205:整租套间
 def get_room_type(type):
     # 即检查对应的类型是否包含在list_data中
@@ -288,10 +290,10 @@ def get_room_type(type):
     # 0表示不再配置文件中
     return data_dict[type][0] if type in data_dict else 0
 
-```
+
+# In[17]:
 
 
-```python
 # room_name 的配置
 def room_name_config(type):
     type = type.encode('utf-8')
@@ -305,10 +307,11 @@ def room_name_config(type):
         return config_list.index(type)
     else:
         return -1
-```
 
 
-```python
+# In[1]:
+
+
 # scope_name 的配置
 def scope_name_config(type):
     type = type.encode('utf-8')    
@@ -393,15 +396,17 @@ def scope_name_config(type):
         return config_list.index(type)
     else:
         return -1
-```
 
 
-```python
-
-```
+# In[ ]:
 
 
-```python
+
+
+
+# In[19]:
+
+
 # estate_name 的配置
 def estate_name_config(type):
     type = type.encode('utf-8')
@@ -412,10 +417,11 @@ def estate_name_config(type):
         return config_list.index(type)
     else:
         return -1
-```
 
 
-```python
+# In[20]:
+
+
 # region_name 的配置
 def region_name_config(type):
     type = type.encode('utf-8')    
@@ -430,10 +436,11 @@ def region_name_config(type):
         return config_list.index(type)
     else:
         return -1
-```
 
 
-```python
+# In[21]:
+
+
 
 # define a function that get the data
 def getDataFromMongoDb(city_name):
@@ -674,26 +681,22 @@ def getDataFromMongoDb(city_name):
     df.to_csv('./csv/'+city_name+'_all_data.csv', header=True, index=False, encoding='utf-8')
     print 'ok! writen csv file!\n\n'
 
-```
+
+# In[22]:
 
 
-```python
 getDataFromMongoDb("hangzhou")
-```
-
-    data count under city : hangzhou is 19330
-    ok! writen csv file!
-    
-    
 
 
+# In[23]:
 
-```python
+
 for city in city_code_dict:
     getDataFromMongoDb(city)
-```
 
 
-```python
+# In[ ]:
 
-```
+
+
+
