@@ -8,3 +8,4 @@ post_6:识别毛笔书法图片的风格（篆、隶、楷、行、草）<br/>
 post_7:京、沪、深、杭、宁出租房价格预测与分析EDA<br/>
 
 
+![](http://wx2.sinaimg.cn/mw690/893019c2gy1fki7cs39nij210c15ytcl.jpg)
